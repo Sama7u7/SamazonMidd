@@ -27,7 +27,7 @@
     <header>
         <!-- Aquí puedes agregar el contenido del encabezado que se repetirá en todas las páginas -->
         
-       @include('layouts.navbar')
+       @include('partials.navbarCliente')
     
     </header>
 
@@ -38,7 +38,7 @@
 
     <footer>
         <!-- Aquí puedes agregar el contenido del pie de página que se repetirá en todas las páginas -->
-        @include('layouts.footer')
+        @include('partials.footer')
     </footer>
 
     <!-- Aquí puedes incluir tus scripts JavaScript -->

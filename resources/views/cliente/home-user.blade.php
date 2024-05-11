@@ -1,4 +1,4 @@
-@extends('layouts.masterGuest')
+@extends('layouts.masterUser')
 
 @section('title', 'SAMAZON - TODO LO QUE BUSCAS')
 
@@ -21,7 +21,7 @@
                         </p>
                         <p class="card-text">Ahorras $5,910
                         </p>
-                        <a href="login" class="btn btn-primary" onclick="addToCart('Fathon 29 1', 35900, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/pnft7kcgiy2qirrrkcb9/MY22Fathom291_ColorAAmberGlow.jpg')">Añadir al carrito</a>
+                        <a href="/login" class="btn btn-primary" onclick="addToCart('Fathon 29 1', 35900, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/pnft7kcgiy2qirrrkcb9/MY22Fathom291_ColorAAmberGlow.jpg')">Añadir al carrito</a>
                     </div>
                 </div>
                 <!-- fin tarjeta -->
@@ -35,7 +35,7 @@
                         </p>
                         <p class="card-text">Ahorras $1,800
                         </p>
-                        <a href="login" class="btn btn-primary" onclick="addToCart('Talon 2', 13990, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/kkigqu3s4mlndjfiy769/MY22Talon292_ColorAKnightShield.jpg')">Añadir al carrito</a>
+                        <a href="/login" class="btn btn-primary" onclick="addToCart('Talon 2', 13990, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/kkigqu3s4mlndjfiy769/MY22Talon292_ColorAKnightShield.jpg')">Añadir al carrito</a>
                     </div>
                 </div>
 
@@ -48,7 +48,7 @@
                         </p>
                         <p class="card-text">Ahorras $2,000
                         </p>
-                        <a href="login" class="btn btn-primary" onclick="addToCart('Talon 4', 11990, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/ssnyhzock3aaty3hbrzl/MY22Talon294_ColorAMetallicBlack.jpg')">Añadir al carrito</a>
+                        <a href="/login" class="btn btn-primary" onclick="addToCart('Talon 4', 11990, 1, 'https://images2.giant-bicycles.com/b_white%2Cc_pad%2Ch_400%2Cq_80%2Cw_600/ssnyhzock3aaty3hbrzl/MY22Talon294_ColorAMetallicBlack.jpg')">Añadir al carrito</a>
                     </div>
                 </div>
 
